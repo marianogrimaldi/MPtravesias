@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:  'Saira Stencil One', cursive;
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px red;
+    padding: 2rem;
+    background-image: linear-gradient(white,black,black,white);
+}
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:  'Saira Stencil One', cursive;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    padding: 1rem;
+    background-image: linear-gradient(black, rgb(255, 248, 248));
+   
+}
+
+.imgPrincipal {
+    display: flex;
+    justify-content: center;  
+   border-right: solid 4rem black;
+   border-left: solid 4rem black;
+
+   img {
+    border-radius: 1rem;
+   }
+}
+
+.imgHome {
+    
+    width: 25rem;
+    border-radius: 1rem;
+    
+    
+}
+
+
+
+.flex1 {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+    gap: 1rem;
+    
+    
+}
+
+section {
+  
+  margin-bottom: 3rem;
+    
+}
