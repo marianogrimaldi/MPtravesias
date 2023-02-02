@@ -6,7 +6,7 @@
 
 li {
     font-family: 'Rubik Glitch', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
     list-style-type: none;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -57,6 +57,8 @@ a {
     justify-content: center;
     align-items: center;
     
+   
+    
 
 }
 
@@ -73,9 +75,11 @@ a {
 }
 
 header {
-    padding: 3rem;
+    
     background-image: linear-gradient(black,black,black,rgb(255, 255, 255));
     margin-bottom: 3rem;
+    
+   
 }
 
 #logoWpp {
@@ -122,7 +126,7 @@ footer {
         color: white;
         font-size: 4rem;
         font-family:  'Saira Stencil One', cursive;
-        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        text-shadow: 5px 5px 5px rgb(0, 0, 0);
         position: relative;
         padding-top: 2rem;
         
@@ -176,3 +180,14 @@ footer {
     
 }
 
+.logosMarcas {
+    background-image: linear-gradient(black,white,white,white,white,white, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img{
+        width: 5rem;
+    }
+}

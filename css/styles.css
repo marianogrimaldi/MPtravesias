@@ -5,7 +5,7 @@
 
 li {
   font-family: "Rubik Glitch", cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
   list-style-type: none;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -68,7 +68,6 @@ a {
 }
 
 header {
-  padding: 3rem;
   background-image: linear-gradient(black, black, black, rgb(255, 255, 255));
   margin-bottom: 3rem;
 }
@@ -109,7 +108,7 @@ footer h3 {
   color: white;
   font-size: 4rem;
   font-family: "Saira Stencil One", cursive;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
   position: relative;
   padding-top: 2rem;
 }
@@ -144,6 +143,49 @@ footer p {
 
 .logoRedes {
   width: 3rem;
+}
+
+.logosMarcas {
+  background-image: linear-gradient(black, white, white, white, white, white, black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logosMarcas img {
+  width: 5rem;
+}
+
+#articleCross p {
+  color: rgb(255, 255, 255);
+  font-family: "Saira Stencil One", cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#articleCross h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Saira Stencil One", cursive;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin-left: 1rem;
+}
+#articleCross h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Saira Stencil One", cursive;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin-left: 1rem;
+}
+
+.flexMap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+.flexMap img {
+  width: 27rem;
 }
 
 .imgPrincipal {
@@ -193,13 +235,14 @@ p {
   margin-left: 3rem;
   margin-right: 3rem;
   text-align: justify;
+  font-weight: bolder;
 }
 
 .imgNosotros {
   position: absolute;
   right: 0;
   opacity: 0.4;
-  width: 38rem;
+  width: 35.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
