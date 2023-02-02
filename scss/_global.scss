@@ -20,6 +20,30 @@ li:hover {
    
 }
 
+body{
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:  'Saira Stencil One', cursive;
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px red;
+    padding: 2rem;
+    background-image: linear-gradient(rgb(255, 0, 0),black,black,rgb(255, 0, 0));
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:  'Saira Stencil One', cursive;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 1rem;
+    background-image: linear-gradient(black, rgb(255, 0, 0));
+   border-radius: 1rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -55,7 +79,7 @@ header {
 }
 
 #logoWpp {
-    width: 5rem;
+    width: 3rem;
     position: fixed;
     right: 0%;
     transition: 0.5s;
@@ -89,20 +113,28 @@ footer {
     justify-content: center;
     justify-content:space-evenly;
     align-items: center;
-    padding: 5rem;
+    padding: 2rem;
     background-image: linear-gradient(white, black, black);
+    margin-top: 5rem;
   
 
     h3 {
         color: white;
-        font-size: 2rem;
+        font-size: 4rem;
         font-family:  'Saira Stencil One', cursive;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        position: relative;
+        padding-top: 2rem;
+        
+        
 
     }
     p {
         color: white;
         font-size: 2rem;
         font-family: 'Saira Stencil One', cursive;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
     }
 }
 
@@ -110,13 +142,37 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
+    h4{
+        position: absolute;
+        font-family: 'Saira Stencil One', cursive;
+        font-size: 6rem;
+        color: rgb(0, 0, 0);
+        
+        opacity: 0.5;
+       
+        
+        
+        left: 0;
+        right: 0;
+        
+        margin: auto;
+       text-align: center;
+       
+    }
+
+   
 }
 
 .flexImgRedes{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+    
 }
 
 .logoRedes {
-    width: 2rem;
+    width: 3rem;
+    
 }
+

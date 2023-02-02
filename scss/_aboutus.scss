@@ -1,3 +1,7 @@
+#colorBody {
+    background-color: rgb(255, 255, 255);
+}
+
 p {
     font-family: 'Saira Stencil One', cursive;
     font-size: 1.5rem;
@@ -5,17 +9,13 @@ p {
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: justify;
+    
 }
 .imgNosotros {
 
     position: absolute;
-    width: 37rem;
-    top: 55rem;
-    left: 40rem;
     right: 0;
-    bottom: 0;
-    margin: auto;
     opacity: 0.4;
-    border-radius: 1rem;
+    width: 38rem;
 }
 
