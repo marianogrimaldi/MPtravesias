@@ -35,13 +35,14 @@
 .flexMap {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     margin-left: 1rem;
     margin-bottom: 3rem;
+    background-image: linear-gradient(black, white,black);
     
 
     img {
-        width: 27rem;
+        width: 35rem;
        
     }
 }

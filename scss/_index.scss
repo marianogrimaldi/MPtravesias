@@ -1,32 +1,41 @@
 
 
 .imgPrincipal {
+    margin: auto;
     display: flex;
-    justify-content: center;  
-   border-right: solid 4rem black;
-   border-left: solid 4rem black;
-
-   img {
-    border-radius: 1rem;
-   }
+    width: 50rem;  
+    margin-top: 2rem;
+    
 }
+
+
 
 .imgHome {
     
-    width: 25rem;
+    width: 20rem;
     border-radius: 1rem;
+    position: relative;
     
     
 }
 
-
+.imgHome2 {
+    width: 30rem;
+    position: relative;
+}
 
 .flex1 {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
     align-items: center;
    
+    
+   
+}
+
+.recorridos{
+    position: relative;
 }
 
 .flexFotos {
@@ -45,4 +54,17 @@ section {
   
   margin-bottom: 3rem;
     
+}
+
+.noa {
+    position: absolute;
+    opacity: 0.2;
+    width: 70rem;
+    height: 51rem;
+    
+}
+
+.flexNoa {
+    display: flex;
+    justify-content: center;
 }

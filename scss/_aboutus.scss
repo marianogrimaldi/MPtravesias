@@ -1,5 +1,5 @@
 #colorBody {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 p {
@@ -9,14 +9,14 @@ p {
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: justify;
-    font-weight: bolder;
+    color: white;
     
 }
 .imgNosotros {
 
     position: absolute;
-    right: 0;
-    opacity: 0.4;
+    left: 30%;
+    opacity: 0.5;
     width: 35.5rem;
 }
 
