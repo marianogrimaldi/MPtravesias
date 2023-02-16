@@ -1,4 +1,4 @@
-class marcaVehiculos {
+class MarcaVehiculos {
     constructor (id, name, img){
         this.id = id
         this.name = name
@@ -6,21 +6,24 @@ class marcaVehiculos {
     }
 }
 
-
+let marcasV = []
 
 let marcas = document.getElementById("marcasVehiculos")
+for(let marca of marcasV){
+    let marcaNueva = document.createElement("div")
+    marcaNueva.innerHTML = `<a href="https://www.icasamotos.com.ar/" 
+    target="_blank"><img src="${marca.img}" alt=""></a>`
+    marcas.appendChild(marcaNueva)
+    
+}
 
-
-
-
-let marcasV = []
 
 const cargarMarcas = async ()=> {
     const response = await fetch("marcas.json")
     const datos = await response.json()
     console.log(datos)
     for (let marcaVehiculos of datos){
-    let marcaNueva = new marcaVehiculos (marcaVehiculos.id, marcaVehiculos.name, marcaVehiculos.img)
+    let marcaNueva = new MarcaVehiculos (marcaVehiculos.id, marcaVehiculos.name, marcaVehiculos.img)
     marcasV.push(marcaNueva)
     }
 }

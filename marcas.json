@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "icasa",
-        "img": "img/logoMarcas/icasa.png"
+        "img": "../img/logoMarcas/icasa.png"
     },
     {
         "id": 2,
