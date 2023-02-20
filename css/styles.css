@@ -101,7 +101,7 @@ footer {
   align-items: center;
   padding: 2rem;
   background-image: linear-gradient(white, black, black);
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 footer h3 {
   color: white;
@@ -145,7 +145,7 @@ footer p {
 }
 
 .logosMarcas {
-  background-image: linear-gradient(black, white, white, white, white, white, black);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,10 +197,6 @@ footer p {
   justify-content: center;
   gap: 1rem;
   align-items: center;
-}
-
-.recorridos {
-  position: relative;
 }
 
 .flexFotos {

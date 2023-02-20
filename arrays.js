@@ -8,14 +8,7 @@ class MarcaVehiculos {
 
 let marcasV = []
 
-let marcas = document.getElementById("marcasVehiculos")
-for(let marca of marcasV){
-    let marcaNueva = document.createElement("div")
-    marcaNueva.innerHTML = `<a href="https://www.icasamotos.com.ar/" 
-    target="_blank"><img src="${marca.img}" alt=""></a>`
-    marcas.appendChild(marcaNueva)
-    
-}
+
 
 
 const cargarMarcas = async ()=> {
@@ -26,6 +19,13 @@ const cargarMarcas = async ()=> {
     let marcaNueva = new MarcaVehiculos (marcaVehiculos.id, marcaVehiculos.name, marcaVehiculos.img)
     marcasV.push(marcaNueva)
     }
+    let marcas = document.getElementById("marcasVehiculos")
+for(let marca of marcasV){
+    let marcaNueva = document.createElement("div")
+    marcaNueva.innerHTML = `<img src="${marca.img}" alt="">`
+    marcas.appendChild(marcaNueva)
+    
+}
 }
 
 cargarMarcas()

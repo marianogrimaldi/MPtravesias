@@ -2,27 +2,27 @@
     {
         "id": 1,
         "name": "icasa",
-        "img": "../img/logoMarcas/icasa.png"
+        "img": "icasa.png"
     },
     {
         "id": 2,
         "name": "canam",
-        "img": "../img/logoMarcas/canam.png"
+        "img": "canam.png"
     },
     {
         "id": 3,
         "name": "polaris",
-        "img": "../img/logoMarcas/polaris.png"
+        "img": "polaris.png"
     },
     {
         "id": 4,
         "name": "honda",
-        "img": "../img/logoMarcas/honda.png"
+        "img": "honda.png"
     },
     {
         "id": 5,
         "name": "yamaha",
-        "img": "../img/logoMarcas/yamaha.png"
+        "img": "yamaha.png"
     },
     {
         "id": 6,
