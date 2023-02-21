@@ -89,11 +89,12 @@ header {
     width: 3rem;
     position: fixed;
     right: 0%;
-    transition: 0.5s;
-    
-    
-
-  
+    transition: 0.5s; 
+}
+@media screen and (max-width: 600px){
+    #logoWpp {
+        display: none;
+    }
 }
 #logoWpp:hover {
     width: 5.5rem;
