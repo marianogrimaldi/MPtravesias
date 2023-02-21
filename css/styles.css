@@ -102,6 +102,7 @@ footer {
   padding: 2rem;
   background-image: linear-gradient(white, black, black);
   margin-top: 1rem;
+  position: relative;
 }
 footer h3 {
   color: white;
@@ -150,6 +151,7 @@ footer p {
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
 }
 .logosMarcas img {
   width: 5rem;
@@ -172,6 +174,10 @@ footer p {
 }
 .lang img:hover {
   width: 3rem;
+}
+
+#colorSolapa {
+  color: red;
 }
 
 .imgPrincipal {
@@ -242,14 +248,13 @@ p {
 
 .imgNosotros {
   position: absolute;
-  left: 30%;
-  opacity: 0.3;
-  width: 35.5rem;
+  opacity: 0.5;
+  width: 80rem;
 }
 
 #articleCross p {
   color: rgb(255, 255, 255);
-  font-family: "Saira Stencil One", cursive;
+  font-family: "Comfortaa", cursive;
   text-align: center;
   margin-bottom: 2rem;
 }

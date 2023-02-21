@@ -6,12 +6,10 @@ class MarcaVehiculos {
     }
 }
 
-
-
 let marcasV = []
 
 const cargarMarcas = async ()=> {
-    const response = await fetch("marcas.json")
+    const response = await fetch("../marcaspages.json")
     const datos = await response.json()
     console.log(datos)
     for (let marcaVehiculos of datos){

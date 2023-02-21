@@ -87,6 +87,7 @@ header {
     position: fixed;
     right: 0%;
     transition: 0.5s;
+    
 
   
 }
@@ -120,6 +121,7 @@ footer {
     padding: 2rem;
     background-image: linear-gradient(white, black, black);
     margin-top: 1rem;
+    position: relative;
   
 
     h3 {
@@ -186,6 +188,7 @@ footer {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
 
     img{
         width: 5rem;
@@ -213,4 +216,11 @@ footer {
     img:hover{
         width: 3rem;
     }
+}
+
+#colorSolapa {
+    color:red;
+   
+       
+   
 }
