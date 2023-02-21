@@ -7,7 +7,11 @@
     margin-top: 2rem;
     
 }
-
+@media screen and (max-width: 600px){
+    .imgPrincipal {
+        width: 30rem;
+    }
+}
 
 
 .imgHome {
@@ -28,13 +32,13 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    align-items: center;
-   
-    
-   
+    align-items: center;  
 }
-
-
+@media screen and (max-width: 600px){
+    .flex1 {
+        flex-direction: column;
+    }
+}
 .flexFotos {
     display: flex;
     justify-content: center;
@@ -46,7 +50,13 @@
         width: 18rem;
     }
 }
-
+@media screen and (max-width: 600px){
+    .flexFotos {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
 section {
   
   margin-bottom: 3rem;
@@ -57,8 +67,12 @@ section {
     position: absolute;
     opacity: 0.2;
     width: 70rem;
-    height: 51rem;
-    
+    height: 51rem;  
+}
+@media screen and (max-width: 600px){
+    .noa{
+        display: none;
+    } 
 }
 
 .flexNoa {

@@ -33,6 +33,11 @@ h1 {
     padding: 2rem;
     background-image: linear-gradient(rgb(255, 0, 0),black,black,rgb(255, 0, 0));
 }
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 3rem;
+    }
+}
 h2 {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -71,10 +76,6 @@ a {
 
 }
 
-.logoIcasa {
-    width: 9rem;
-    height: 8rem;
-}
 
 header {
     
@@ -135,8 +136,6 @@ footer {
         position: relative;
         padding-top: 2rem;
         
-        
-
     }
     p {
         color: white;
@@ -146,7 +145,19 @@ footer {
 
     }
 }
-
+@media screen and (max-width: 600px){
+    footer {
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            color: white;
+            font-size: 1.5rem;
+            
+    
+        }
+    }
+}
 .flexRedes {
     display: flex;
     flex-direction: column;
@@ -184,7 +195,11 @@ footer {
     width: 2rem;
     
 }
-
+@media screen and (max-width: 600px){
+    .logoRedes{
+        position: absolute;
+    }
+}
 .logosMarcas {
     background-color: white;
     display: flex;
@@ -200,7 +215,11 @@ footer {
 .logoGrande {
     width: 9rem;
 }
-
+@media screen and (max-width: 600px){
+    img {
+        width: 3rem;
+    }
+}
 }
 
 
