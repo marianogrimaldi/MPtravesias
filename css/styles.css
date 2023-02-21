@@ -306,7 +306,7 @@ p {
     cursor: pointer;
   }
   .navLabel img {
-    width: 8rem;
+    width: 5rem;
   }
   .nav_menu {
     flex-direction: column;
@@ -317,7 +317,17 @@ p {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .logoPrincipal {
-    width: 10rem;
+    width: 15rem;
+  }
+  .navMenu {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5rem;
+  }
+  .lang {
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
   }
 }
 
