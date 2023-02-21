@@ -276,13 +276,14 @@ p {
 .flexMap {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 4rem;
   margin-left: 1rem;
   margin-bottom: 3rem;
   background-image: linear-gradient(black, white, black);
 }
 .flexMap img {
-  width: 35rem;
+  width: 30rem;
 }
 
 .tour {
