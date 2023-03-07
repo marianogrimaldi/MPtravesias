@@ -78,6 +78,11 @@ header {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 700px) {
+  #logoWpp {
+    display: none;
+  }
+}
 #logoWpp:hover {
   width: 5.5rem;
 }
@@ -189,10 +194,7 @@ footer p {
 }
 .lang img {
   width: 2rem;
-  transition: 0.5s;
-}
-.lang img:hover {
-  width: 3rem;
+  cursor: pointer;
 }
 
 #colorSolapa {
@@ -229,7 +231,7 @@ footer p {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .flex1 {
     flex-direction: column;
   }
@@ -244,7 +246,7 @@ footer p {
   width: 18rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .flexFotos {
     flex-direction: column;
     align-items: center;
@@ -262,7 +264,7 @@ section {
   height: 51rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .noa {
     display: none;
   }
@@ -330,6 +332,9 @@ p {
 .tour {
   display: flex;
   justify-content: center;
+}
+.tour img {
+  margin-bottom: 2rem;
 }
 
 .navLabel, .navInput {

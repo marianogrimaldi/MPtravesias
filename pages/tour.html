@@ -14,33 +14,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../img/favIcon.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>MPT | TOUR PRIVADO</title>
+    <title data-section="favIcon" data-value="titulo4">MPT | TOUR PRIVADO</title>
 </head>
 <body>
     <header>
-        <div class="lang" >
-            <img src="../img/banderaEspaña.png" alt="">
-            <img src="../img/banderaInglesa.png" alt="">
+        <div class="lang" id="flags">
+            <div class="flags__item" data-language="es">
+                <img src="../img/banderaEspaña.png"  alt="">
             </div>
+            <div class="flags__item" data-language="en">
+                <img src="../img/banderaInglesa.png"  alt="">
+            </div>
+        </div>
         <nav>
             <ul class="navMenu">
                 <img class="logoPrincipal" src="../img/sin cuatri -1-02.png" alt="">
-                <a href="../index.html"><li>INICIO</li></a>
-                <a href="aboutus.html"><li>NOSOTROS</li></a>
-                <a href="crossings.html"><li>TRAVESIAS</li></a> 
-                <a href="tour.html"><li id="colorSolapa">TOUR PRIVADO</li></a>
-                <a href="galery.html"><li>GALERIA</li></a>
-                <a href="#contacto"><li>CONTACTO</li></a>
+                <a href="../index.html"><li data-section="header" data-value="inicio">INICIO</li></a>
+                <a href="aboutus.html"><li data-section="header" data-value="nosotros">NOSOTROS</li></a>
+                <a href="crossings.html"><li data-section="header" data-value="travesias">TRAVESIAS</li></a> 
+                <a href="tour.html"><li id="colorSolapa" data-section="header" data-value="tour privado">TOUR PRIVADO</li></a>
+                <a href="galery.html"><li data-section="header" data-value="galeria">GALERIA</li></a>
+                <a href="#contacto"><li data-section="header" data-value="contacto">CONTACTO</li></a>
             </ul>
         </nav>
         <div>
             <a href="https://api.whatsapp.com/send?phone=5493548407934" target="_blank"><img id="logoWpp" src="../img/icone-du-logo-whatsapp-rouge.png" alt=""></a>
             </div>
     </header>
-    <body>
+
        
-        <h1>TOUR PRIVADO</h1>
-        <P>En esta modalidad armamos una travesia en base a tus gustos y nuestros conocimientos. Si tenes un grupo de amigos 
+        <h1 data-section="tour privado" data-value="titulo">TOUR PRIVADO</h1>
+        <P data-section="tour privado" data-value="parrafo">En esta modalidad armamos una travesia en base a tus gustos y nuestros conocimientos. Si tenes un grupo de amigos 
             y queres vivir una experiencia increible, consultanos por fechas y destinos, y rediseñamos una travesia exclusiva para vos.
             Teniendo siempre en cuenta las condiciones climaticas, nuestro objetivo es que sientas a pleno la naturaleza en un marco seguro y confialbe.
         </P>
@@ -48,22 +52,25 @@
         <img src="../img/grupo.jpg" alt="">
         </div>
         <div id="marcasVehiculos" class="logosMarcas"></div>
-    <script src="../imgmarcas.js"></script>
-    </body>
+    
+ 
     
     <footer >
         <img class="barro" src="../img/barro.png" alt=""> 
         <img class="barro2" src="../img/barro2.png" alt=""> 
         <div id="contacto" class="flexRedes">
         <h4>MARCELO PUCHATT</h4> 
-        <h3>C O N T A C T O</h3>
-        <p>CEL:+ 54 9 3548-407934</p>
+        <h3 data-section="footer" data-value="contacto">C O N T A C T O</h3>
+        <p data-section="footer" data-value="celular">CEL:+ 54 9 3548-407934</p>
         <div class="flexImgRedes">
             <a href="https://api.whatsapp.com/send?phone=5493548407934" target="_blank"><img class="logoRedes" src="../img/600px-Whatsapp_logo_svg.png" alt=""></a>
             <a href="https://www.instagram.com/marcelopuchatt/" target="_blank"><img class="logoRedes"src="../img/Instagram-Logo.png" alt=""></a>
             <a href="https://www.facebook.com/marcelopuchatt.marcelo" target="_blank"><img class="logoRedes"src="../img/Facebook_f_logo_(2019).svg.webp" alt=""></a>
         </div>
-        </div>
+        </div> 
+        <script src="../imgmarcas.js"></script>
+        <script src="../traductor.js"></script>  
+    </body>
     </footer>
 
 </html>
