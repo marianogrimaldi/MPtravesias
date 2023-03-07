@@ -4,7 +4,7 @@
             "titulo2":"MPT | CROSSINGS",
             "titulo3":"MPT | GALLERY",
             "titulo4":"MPT | PRIVATE TOUR"
-        },
+      },
       "header":{
             "inicio":"HOME",
             "nosotros":"ABOUT US",
@@ -12,6 +12,11 @@
             "tour privado":"PRIVATE TOUR",
             "galeria":"GALLERY",
             "contacto":"CONTACT"
+      },
+      "inicio":{
+            "titulo":"ACTIVATE YOUR OFF ROAD MODE",
+            "subtitulo1":"UTVs AND ATVS",
+            "subtitulo2":"ADVENTURES THROUGHOUT THE COUNTRY"
       },
       "m.p travesias":{ 
             "titulo": "M.P. CROSSINGS",
