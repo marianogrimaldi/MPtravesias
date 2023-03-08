@@ -22,7 +22,9 @@ flagsElement.addEventListener("click", (e) => {
 
 //CODIGO PARA QUE QUEDE GUARDADO EL IDIOMA EN LOCAL STORAGE
 
-
+//Yo no guardaría un valor por cada idioma, sino que guardaría el idioma que va para después tenerlos. 
+//Ej: localStorage.getItem("languageSelected");
+// y que ese valor, me devuelva: eng, esp, bra, etc...
 let idiomaIngles = document.getElementById ("in")
 let idiomaEspañol = document.getElementById ("es")
 
@@ -30,8 +32,10 @@ let ingles = localStorage.getItem("ing")
 
 if(ingles == "true"){
     document.body.classList.add("ingles")
+    changeLanguage("en"); 
 }else{
     document.body.classList.remove("ingles")
+    changeLanguage("es");
 }
 
 idiomaIngles.addEventListener("click", ()=>{
