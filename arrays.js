@@ -11,10 +11,9 @@ class MarcaVehiculos {
 let marcasV = []
 
 const cargarMarcas = async ()=> {
-    const response = await fetch("marcas.json")
-    const datos = await response.json()
-    console.log(datos)
-    for (let marcaVehiculos of datos){
+    const response = await getMarcas();
+    debugger;
+    for (let marcaVehiculos of response){
     let marcaNueva = new MarcaVehiculos (marcaVehiculos.id, marcaVehiculos.name, marcaVehiculos.img)
     marcasV.push(marcaNueva)
     }
