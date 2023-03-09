@@ -1,26 +1,22 @@
 
-
 .imgPrincipal {
     margin: auto;
     display: flex;
     width: 50rem;  
-    margin-top: 2rem;
-    
+    margin-top: 2rem;  
 }
+
 @media screen and (max-width: 600px){
     .imgPrincipal {
         width: 30rem;
     }
 }
 
-
 .imgHome {
     
     width: 20rem;
     border-radius: 1rem;
-    position: relative;
-    
-    
+    position: relative;  
 }
 
 .imgHome2 {
@@ -34,22 +30,24 @@
     gap: 1rem;
     align-items: center;  
 }
+
 @media screen and (max-width: 700px){
     .flex1 {
         flex-direction: column;
     }
 }
+
 .flexFotos {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     margin-top: 2rem;
 
-
     img {
         width: 18rem;
     }
 }
+
 @media screen and (max-width: 700px){
     .flexFotos {
         flex-direction: column;
@@ -57,10 +55,10 @@
         gap: 0.5rem;
     }
 }
+
 section {
   
-  margin-bottom: 3rem;
-    
+  margin-bottom: 3rem;  
 }
 
 .noa {
@@ -69,6 +67,7 @@ section {
     width: 70rem;
     height: 51rem;  
 }
+
 @media screen and (max-width: 700px){
     .noa{
         display: none;

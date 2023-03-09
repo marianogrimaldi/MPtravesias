@@ -1,10 +1,4 @@
-.navLabel, .navInput {
-    display: none;
-}
-.nav_menu {
-    display: flex;
-    gap:2rem;
-}
+
 
 @media screen and (max-width: 600px){
     .navLabel {
@@ -25,13 +19,7 @@
 
     }
 
-    .navInput:checked + .nav_menu {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-
-    }
-    .logoPrincipal {
-        width: 20rem;
-    }
+  
 
     .navMenu {
         display: flex;
@@ -40,13 +28,7 @@
 
     }   
     
-    .lang {
-        flex-direction: row;
-        justify-content: center;
-        display: none;
-        
-        
-    }
+
     
    
     

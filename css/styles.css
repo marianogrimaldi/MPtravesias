@@ -5,7 +5,7 @@
 
 li {
   font-family: "Rubik Glitch", cursive;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   list-style-type: none;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -60,7 +60,7 @@ a {
 }
 
 .logoPrincipal {
-  width: 20rem;
+  width: 17rem;
 }
 
 .logoFooter {
@@ -337,15 +337,6 @@ p {
   margin-bottom: 2rem;
 }
 
-.navLabel, .navInput {
-  display: none;
-}
-
-.nav_menu {
-  display: flex;
-  gap: 2rem;
-}
-
 @media screen and (max-width: 600px) {
   .navLabel {
     display: block;
@@ -360,21 +351,10 @@ p {
     align-items: center;
     transition: clip-path 1s;
   }
-  .navInput:checked + .nav_menu {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .logoPrincipal {
-    width: 20rem;
-  }
   .navMenu {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-  }
-  .lang {
-    flex-direction: row;
-    justify-content: center;
-    display: none;
   }
 }
 

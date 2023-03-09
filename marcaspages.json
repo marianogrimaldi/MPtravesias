@@ -2,37 +2,37 @@
     {
         "id": 1,
         "name": "icasa",
-        "img": "../icasa.png"
+        "img": "../img/logoMarcas/icasa.png"
     },
     {
         "id": 2,
         "name": "canam",
-        "img": "../canam.png"
+        "img": "../img/logoMarcas/canam.png"
     },
     {
         "id": 3,
         "name": "polaris",
-        "img": "../polaris.png"
+        "img": "../img/logoMarcas/polaris.png"
     },
     {
         "id": 4,
         "name": "honda",
-        "img": "../honda.png"
+        "img": "../img/logoMarcas/honda.png"
     },
     {
         "id": 5,
         "name": "yamaha",
-        "img": "../yamaha.png"
+        "img": "../img/logoMarcas/yamaha.png"
     },
     {
         "id": 6,
         "name": "kawasaki",
-        "img": "../kawasaki.png"
+        "img": "../img/logoMarcas/kawasaki.png"
     },
     {
         "id": 7,
         "name": "cfmoto",
-        "img": "../cfmoto.png"
+        "img": "../img/logoMarcas/cfmoto.png"
     }
 ]
 
