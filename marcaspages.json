@@ -6,8 +6,9 @@
     },
     {
         "id": 2,
-        "name": "canam",
-        "img": "../img/logoMarcas/canam.png"
+        "name": "honda",
+        "img": "../img/logoMarcas/honda.png"
+        
     },
     {
         "id": 3,
@@ -16,8 +17,8 @@
     },
     {
         "id": 4,
-        "name": "honda",
-        "img": "../img/logoMarcas/honda.png"
+        "name": "canam",
+        "img": "../img/logoMarcas/canam.png"
     },
     {
         "id": 5,

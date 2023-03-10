@@ -84,4 +84,24 @@ section {
     color: white;
     font-size: 2rem;
     text-align: center;
+    
+}
+
+.modal-content{
+    background-color: rgb(255, 0, 0);
+    font-family: 'Saira Stencil One', cursive;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+
+.btn {
+    background-color: black;
+    
+}
+
+.btn:hover{
+    background-color: rgb(105, 105, 103);
+    
 }
