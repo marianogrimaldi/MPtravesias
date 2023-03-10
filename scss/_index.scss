@@ -13,7 +13,14 @@
         animation-duration: 6s;
             
         }
-
+        @media screen and (max-width: 600px){
+        
+            .cuatri{
+             width: 10rem;
+            }
+             
+         }
+         
         @keyframes mianimacion {
         0% {opacity: 0;
 
@@ -40,6 +47,15 @@
 
 
     }
+    @media screen and (max-width: 600px){
+        
+        .logoMarcelo{
+            margin-top: 10rem;
+         width: 15rem;
+        }
+         
+     }
+     
     @keyframes textogrande {
         0% {filter: blur(10px);opacity: 0;
 
@@ -75,7 +91,14 @@
 
 
     }
-
+    @media screen and (max-width: 600px){
+        
+       p{
+        font-size: 1rem;
+        
+       }
+         
+    }
     @keyframes animacionTexto {
         0% {color: black;filter: blur(10px);
 

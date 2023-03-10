@@ -130,7 +130,7 @@ footer p {
   }
   footer p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .flexRedes {
@@ -209,6 +209,11 @@ footer p {
   animation-name: mianimacion;
   animation-duration: 6s;
 }
+@media screen and (max-width: 600px) {
+  .logoCuatriSaludo .cuatri {
+    width: 10rem;
+  }
+}
 @keyframes mianimacion {
   0% {
     opacity: 0;
@@ -226,6 +231,12 @@ footer p {
   position: absolute;
   animation-duration: 3s;
   animation-name: textogrande;
+}
+@media screen and (max-width: 600px) {
+  .logoCuatriSaludo .logoMarcelo {
+    margin-top: 10rem;
+    width: 15rem;
+  }
 }
 @keyframes textogrande {
   0% {
@@ -247,6 +258,11 @@ footer p {
   font-size: 3rem;
   animation-duration: 5s;
   animation-name: animacionTexto;
+}
+@media screen and (max-width: 600px) {
+  #flags p {
+    font-size: 1rem;
+  }
 }
 @keyframes animacionTexto {
   0% {
@@ -275,7 +291,7 @@ footer p {
 
 @media screen and (max-width: 600px) {
   .imgPrincipal {
-    width: 30rem;
+    width: 20rem;
   }
 }
 .imgHome {
