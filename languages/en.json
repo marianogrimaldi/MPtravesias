@@ -16,7 +16,11 @@
       "inicio":{
             "titulo":"ACTIVATE YOUR OFF ROAD MODE",
             "subtitulo1":"UTVs AND ATVS",
-            "subtitulo2":"ADVENTURES THROUGHOUT THE COUNTRY"
+            "subtitulo2":"ADVENTURES THROUGHOUT THE COUNTRY",
+            "saludo modal":"Welcome",
+            "nombre piloto":"Please enter your name",
+            "btn entrar":"Enter",
+            "mensaje piloto":", the adventure is about to start..."
       },
       "m.p travesias":{ 
             "titulo": "M.P. CROSSINGS",

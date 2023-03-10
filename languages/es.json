@@ -16,7 +16,11 @@
     "inicio":{
         "titulo":"ACTIVA TU MODO OFF ROAD",
         "subtitulo1":"UTVs Y CUATRICICLOS",
-        "subtitulo2":"AVENTURAS POR TODO EL PAIS"
+        "subtitulo2":"AVENTURAS POR TODO EL PAIS",
+        "saludo modal":"Bienvenido",
+        "nombre piloto":"Por favor escribe tu nombre",
+        "btn entrar":"Entrar",
+        "mensaje piloto":", la aventura está por comenzar..."
     },
     "m.p travesias":{
         "titulo": "M.P. TRAVESIAS",
