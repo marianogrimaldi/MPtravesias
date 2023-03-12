@@ -262,7 +262,6 @@ footer p {
 @media screen and (max-width: 600px) {
   #flags p {
     font-size: 1rem;
-    margin-top: 20rem;
   }
 }
 @keyframes animacionTexto {
@@ -283,6 +282,11 @@ footer p {
   }
 }
 
+@media screen and (max-width: 600px) {
+  a {
+    margin-top: 5rem;
+  }
+}
 .imgPrincipal {
   margin: auto;
   display: flex;
@@ -333,6 +337,9 @@ footer p {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+  }
+  .imgHome2 {
+    width: 20rem;
   }
 }
 section {
@@ -399,6 +406,25 @@ p {
   width: 80rem;
 }
 
+.imgNosotrosCel {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .imgNosotros {
+    display: none;
+  }
+  .imgNosotrosCel {
+    display: block;
+    position: absolute;
+    opacity: 0.5;
+    width: 25rem;
+  }
+  .flexImgCel {
+    display: flex;
+    justify-content: center;
+  }
+}
 #articleCross p {
   color: rgb(255, 255, 255);
   font-family: "Comfortaa", cursive;
@@ -420,6 +446,11 @@ p {
   margin-left: 1rem;
 }
 
+@media screen and (max-width: 700px) {
+  #articleCross {
+    text-align: center;
+  }
+}
 .flexMap {
   display: flex;
   align-items: center;
@@ -430,9 +461,14 @@ p {
   background-image: linear-gradient(black, white, black);
 }
 .flexMap img {
-  width: 30rem;
+  width: 25rem;
 }
 
+@media screen and (max-width: 700px) {
+  .flexMap {
+    flex-direction: column;
+  }
+}
 .tour {
   display: flex;
   justify-content: center;
@@ -441,6 +477,11 @@ p {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+  .tour img {
+    width: 25rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .navLabel {
     display: block;
@@ -458,7 +499,7 @@ p {
   .navMenu {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 

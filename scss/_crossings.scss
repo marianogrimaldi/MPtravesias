@@ -25,6 +25,12 @@
    }
 }
 
+@media screen and (max-width: 700px){
+    #articleCross{
+        text-align: center;
+    }
+}
+
 .flexMap {
     display: flex;
     align-items: center;
@@ -35,7 +41,12 @@
     background-image: linear-gradient(black, white,black);
     
     img {
-        width: 30rem;
+        width: 25rem;
     }
 }
-
+@media screen and (max-width: 700px){
+    .flexMap {
+        flex-direction: column;
+    }
+   
+}

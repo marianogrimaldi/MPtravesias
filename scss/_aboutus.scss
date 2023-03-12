@@ -20,3 +20,22 @@ p {
     width: 80rem;
 }
 
+.imgNosotrosCel{
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+    .imgNosotros {
+        display: none;
+    }
+    .imgNosotrosCel {
+        display: block;
+        position: absolute;
+    opacity: 0.5;
+    width: 25rem;
+    }
+    .flexImgCel {
+        display: flex;
+        justify-content: center;
+    }
+}
