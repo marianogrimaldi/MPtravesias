@@ -60,6 +60,14 @@ a {
     align-items: center;
 }
 
+@media screen and (max-width: 600px){
+    .navMenu{
+        flex-direction: column;
+    }
+  
+    
+}
+
 .logoPrincipal{
     width: 17rem;
     
@@ -134,12 +142,15 @@ footer {
 @media screen and (max-width: 600px){
     footer {
         h3 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         p {
             color: white;
-            font-size: 1rem;
+            font-size: 1.5rem;
+        }
+        h4{
+           display: none;
         }
     }
 }
