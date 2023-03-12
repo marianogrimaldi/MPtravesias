@@ -102,14 +102,14 @@ header {
 
     position: absolute; 
     left: 0;
-    width: 20rem;        
+    width: 22rem;        
 }
 
 .barro2 {
 
     position: absolute; 
     right: 0;
-    width: 20rem;         
+    width: 22rem;         
 }
 
 footer {
@@ -227,4 +227,79 @@ footer {
 
 #colorSolapa {
     color:red;
+}
+
+.logoMariano {
+    width: 3rem;
+    animation-name: logoMariano;
+    animation-duration: 6s;
+}
+
+@keyframes logoMariano {
+    0% {opacity: 0;
+
+    } 
+
+   
+
+    100%{opacity: 1;      
+
+    } 
+    }
+
+
+
+.flexLogoMarian{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#nameMarian{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#textMarian{
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.selloMarian{
+    p{
+        animation-duration: 6s;
+    animation-name: animacionSello;
+    }
+    
+
+}
+
+@keyframes animacionSello {
+    0% {color: black;
+
+    } 
+
+         
+    100%{color: white;  
+
+    } 
+    }
+
+
+#flexLogoMarian{
+    display: flex;
+    align-items: center;
+    
+        p{
+            margin: 0;
+            font-family: 'Comfortaa', cursive;
+        }
+}
+
+@media screen and (max-width: 600px){
+    #flexLogoMarian {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
 }
