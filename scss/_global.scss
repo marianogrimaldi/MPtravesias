@@ -233,17 +233,15 @@ footer {
     width: 3rem;
     animation-name: logoMariano;
     animation-duration: 6s;
+    position: relative;
+   
 }
 
 @keyframes logoMariano {
     0% {opacity: 0;
-
     } 
 
-   
-
-    100%{opacity: 1;      
-
+    100%{opacity: 1;     
     } 
     }
 
