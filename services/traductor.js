@@ -7,20 +7,20 @@ const changeLanguage = async  language=>{
     const basePart = window.location.href.includes("/mptravesias/")?"/mptravesias":"";
     
     const requestJson = await fetch(`${basePart}/languages/${language}.json`);
-    const texts = await requestJson.json()
+    const texts = await requestJson.json();
 
     for(const textToChange of textsToChange){
-       const section = textToChange.dataset.section
-       const value = textToChange.dataset.value
+       const section = textToChange.dataset.section;
+       const value = textToChange.dataset.value;
       
 
-       textToChange.innerHTML = texts [section][value]
+       textToChange.innerHTML = texts [section][value];
     }
-}
+};
 
 flagsElement.addEventListener("click", (e) => {
-    changeLanguage(e.target.parentElement.dataset.language) 
-})
+    changeLanguage(e.target.parentElement.dataset.language); 
+});
 
 
 //CODIGO PARA QUE QUEDE GUARDADO EL IDIOMA EN LOCAL STORAGE
@@ -28,25 +28,25 @@ flagsElement.addEventListener("click", (e) => {
 //Yo no guardaría un valor por cada idioma, sino que guardaría el idioma que va para después tenerlos. 
 //Ej: localStorage.getItem("languageSelected");
 // y que ese valor, me devuelva: eng, esp, bra, etc...
-let idiomaIngles = document.getElementById ("in")
-let idiomaEspañol = document.getElementById ("es")
+let idiomaIngles = document.getElementById ("in");
+let idiomaEspañol = document.getElementById ("es");
 
-let ingles = localStorage.getItem("ing")
+let ingles = localStorage.getItem("ing");
 
 if(ingles == "true"){
-    document.body.classList.add("ingles")
+    document.body.classList.add("ingles");
     changeLanguage("en"); 
 }else{
-    document.body.classList.remove("ingles")
+    document.body.classList.remove("ingles");
     changeLanguage("es");
 }
 
 idiomaIngles.addEventListener("click", ()=>{
-    document.body.classList.add("ingles")
-    localStorage.setItem("ing",true)
-})
+    document.body.classList.add("ingles");
+    localStorage.setItem("ing",true);
+});
 
 idiomaEspañol.addEventListener("click", ()=>{
-    document.body.classList.remove("ingles")
-    localStorage.setItem("ing", false)
-})
+    document.body.classList.remove("ingles");
+    localStorage.setItem("ing", false);
+});

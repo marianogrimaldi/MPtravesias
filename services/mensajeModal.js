@@ -1,4 +1,4 @@
-const myModal = new bootstrap.Modal(document.getElementById('myModal'));
+const myModal = new bootstrap.Modal(document.getElementById("myModal"));
 let nombreCliente = localStorage.getItem("cliente");
 
 if(!nombreCliente){
