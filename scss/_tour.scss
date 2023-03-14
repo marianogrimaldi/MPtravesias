@@ -1,17 +1,16 @@
-.tour{
-   
-    display: flex;
-    justify-content: center;
+.tour {
+  display: flex;
+  justify-content: center;
 
-    img {
-        margin-bottom: 2rem;
-    }
+  img {
+    margin-bottom: 2rem;
+  }
 }
 
-@media screen and (max-width: 700px){
-    .tour{
-        img {
-            width: 25rem;
-        }
+@media screen and (max-width: 700px) {
+  .tour {
+    img {
+      width: 25rem;
     }
+  }
 }

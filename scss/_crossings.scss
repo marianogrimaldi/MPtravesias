@@ -1,56 +1,53 @@
-#articleCross{
-
-    p{
-        color: rgb(255, 255, 255);
-    font-family:  'Comfortaa', cursive;
+#articleCross {
+  p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     margin-bottom: 2rem;
-    }
+  }
 
-   h3{
-    
+  h3 {
     color: rgb(255, 255, 255);
-    font-family:  'Saira Stencil One', cursive;
+    font-family: 'Saira Stencil One', cursive;
     font-size: 3rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     margin-left: 1rem;
-   }
+  }
 
-   h4{
+  h4 {
     color: rgb(255, 255, 255);
-    font-family:  'Saira Stencil One', cursive;
+    font-family: 'Saira Stencil One', cursive;
     font-size: 2rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     margin-left: 1rem;
-   }
+  }
 }
 
-@media screen and (max-width: 700px){
-    #articleCross{
-        text-align: center;
-    }
+@media screen and (max-width: 700px) {
+  #articleCross {
+    text-align: center;
+  }
 }
 
 .flexMap {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 4rem;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-    background-image: linear-gradient(black, white,black);
-    
-    img {
-        width: 25rem;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(black, white, black);
+
+  img {
+    width: 25rem;
+  }
 }
-@media screen and (max-width: 700px){
-    .flexMap {
-        flex-direction: column;
-    }
-   
+@media screen and (max-width: 700px) {
+  .flexMap {
+    flex-direction: column;
+  }
 }
 
-.underline{
-    text-decoration: underline;
+.underline {
+  text-decoration: underline;
 }

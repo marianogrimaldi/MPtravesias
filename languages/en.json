@@ -1,58 +1,57 @@
-  {
-      "favIcon":{
-            "titulo1":"MPT | ABOUT US",
-            "titulo2":"MPT | CROSSINGS",
-            "titulo3":"MPT | GALLERY",
-            "titulo4":"MPT | PRIVATE TOUR"
-      },
-      "header":{
-            "inicio":"HOME",
-            "nosotros":"ABOUT US",
-            "travesias":"CROSSINGS",
-            "tour privado":"PRIVATE TOUR",
-            "galeria":"GALLERY",
-            "contacto":"CONTACT"
-      },
-      "inicio":{
-            "titulo":"ACTIVATE YOUR OFF ROAD MODE",
-            "subtitulo1":"UTVs AND ATVS",
-            "subtitulo2":"ADVENTURES THROUGHOUT THE COUNTRY",
-            "saludo modal":"Welcome to the great adventure of your life...",
-            "nombre piloto":"Please enter your name",
-            "btn entrar":"Enter",
-            "mensaje piloto":", the adventure is about to start..."
-      },
-      "m.p travesias":{ 
-            "titulo": "M.P. CROSSINGS",
-            "parrafo": "My name is Marcelo Puchatt, I am 53 years old, I was born in the province of Chaco and I have been living in La Falda, in the Sierras de Córdoba, Argentina for two decades. My career as a professional guide began in 2002, but my hobby It started much earlier. When I was 5 years old, my dad gave me my first motorcycle. I come from a family of motorcycle riders. My grandfather, an adventure lover, was a great role model for me. He was a rescuer in Chaco and Chief Mechanic. My father instilled in me a passion for motorcycles and cars and, today, they are my source of work. Throughout my career, I did a bit of everything: I raced trucks, quads and motorcycles. I was part of Daniel Mazzucco's team in the Dakar as a Mechanic in two years and other races.This sustained practice of navigation and the seniority to guide in the mountains, deserts, rivers, salt flats and through inhospitable places, mean that today I can transmit my knowledge to whoever decides to live with me the crossings, being able to carry them out with advice, expertise and total security. I deeply love what I do, and that passion devoted to hard work is what I intend to permeate those who know me. In each of the crossings, apart from ensuring a route of excellence, I provide permanent and authorized mechanical assistance, in the event that any vehicle fails or requires technical support. THEN I INVITE YOU TO BE PART OF THIS WONDERFUL WORLD OF QUAD CROSSING AND UTV, GUARANTEEING THEM A UNIQUE AND UNFORGETTABLE EXPERIENCE."
-                     
-      },
-      "travesias":{
-            "titulo":"CROSSINGS",
-            "parrafo":"IMPORTANT: The schedule may be subject to modification due to inclement weather. For more information contact through our networks.",
-            "mes1":"JANUARY 2023",
-            "mes2":"FEBRUARY 2023",
-            "mes3":"MARCH 2023",
-            "mes4":"APRIL 2023",
-            "mes5":"MAY 2023",
-            "mes6":"JUNE 2023",
-            "mes7":"JULY 2023",
-            "mes8":"AUGUST 2023",
-            "mes9":"SEPTEMBER 2023",
-            "mes10":"OCTOBER 2023",
-            "mes11":"NOVEMBER 2023",
-            "mes12":"DECEMBER 2023",   
-            "desafio":"CHALLENGE"
-      },
-      "tour privado":{
-            "titulo":"PRIVATE TOUR",
-            "parrafo":"In this modality we put together a journey based on your tastes and our knowledge. If you have a group of friends and want to live an incredible experience, ask us for dates and destinations, and we will redesign an exclusive journey for you. Always taking into account the weather conditions, our goal is that you fully feel nature in a safe and trustworthy setting."
-      },
-      "galeria":{
-            "titulo":"GALLERY"
-      },
-      "footer":{
-            "contacto": "C O N T A C T",
-            "celular": "CELL:+ 54 9 3548-407934"  
-      }
+{
+  "favIcon": {
+    "titulo1": "MPT | ABOUT US",
+    "titulo2": "MPT | CROSSINGS",
+    "titulo3": "MPT | GALLERY",
+    "titulo4": "MPT | PRIVATE TOUR"
+  },
+  "header": {
+    "inicio": "HOME",
+    "nosotros": "ABOUT US",
+    "travesias": "CROSSINGS",
+    "tour privado": "PRIVATE TOUR",
+    "galeria": "GALLERY",
+    "contacto": "CONTACT"
+  },
+  "inicio": {
+    "titulo": "ACTIVATE YOUR OFF ROAD MODE",
+    "subtitulo1": "UTVs AND ATVS",
+    "subtitulo2": "ADVENTURES THROUGHOUT THE COUNTRY",
+    "saludo modal": "Welcome to the great adventure of your life...",
+    "nombre piloto": "Please enter your name",
+    "btn entrar": "Enter",
+    "mensaje piloto": ", the adventure is about to start..."
+  },
+  "m.p travesias": {
+    "titulo": "M.P. CROSSINGS",
+    "parrafo": "My name is Marcelo Puchatt, I am 53 years old, I was born in the province of Chaco and I have been living in La Falda, in the Sierras de Córdoba, Argentina for two decades. My career as a professional guide began in 2002, but my hobby It started much earlier. When I was 5 years old, my dad gave me my first motorcycle. I come from a family of motorcycle riders. My grandfather, an adventure lover, was a great role model for me. He was a rescuer in Chaco and Chief Mechanic. My father instilled in me a passion for motorcycles and cars and, today, they are my source of work. Throughout my career, I did a bit of everything: I raced trucks, quads and motorcycles. I was part of Daniel Mazzucco's team in the Dakar as a Mechanic in two years and other races.This sustained practice of navigation and the seniority to guide in the mountains, deserts, rivers, salt flats and through inhospitable places, mean that today I can transmit my knowledge to whoever decides to live with me the crossings, being able to carry them out with advice, expertise and total security. I deeply love what I do, and that passion devoted to hard work is what I intend to permeate those who know me. In each of the crossings, apart from ensuring a route of excellence, I provide permanent and authorized mechanical assistance, in the event that any vehicle fails or requires technical support. THEN I INVITE YOU TO BE PART OF THIS WONDERFUL WORLD OF QUAD CROSSING AND UTV, GUARANTEEING THEM A UNIQUE AND UNFORGETTABLE EXPERIENCE."
+  },
+  "travesias": {
+    "titulo": "CROSSINGS",
+    "parrafo": "IMPORTANT: The schedule may be subject to modification due to inclement weather. For more information contact through our networks.",
+    "mes1": "JANUARY 2023",
+    "mes2": "FEBRUARY 2023",
+    "mes3": "MARCH 2023",
+    "mes4": "APRIL 2023",
+    "mes5": "MAY 2023",
+    "mes6": "JUNE 2023",
+    "mes7": "JULY 2023",
+    "mes8": "AUGUST 2023",
+    "mes9": "SEPTEMBER 2023",
+    "mes10": "OCTOBER 2023",
+    "mes11": "NOVEMBER 2023",
+    "mes12": "DECEMBER 2023",
+    "desafio": "CHALLENGE"
+  },
+  "tour privado": {
+    "titulo": "PRIVATE TOUR",
+    "parrafo": "In this modality we put together a journey based on your tastes and our knowledge. If you have a group of friends and want to live an incredible experience, ask us for dates and destinations, and we will redesign an exclusive journey for you. Always taking into account the weather conditions, our goal is that you fully feel nature in a safe and trustworthy setting."
+  },
+  "galeria": {
+    "titulo": "GALLERY"
+  },
+  "footer": {
+    "contacto": "C O N T A C T",
+    "celular": "CELL:+ 54 9 3548-407934"
+  }
 }

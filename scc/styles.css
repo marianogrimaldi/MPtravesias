@@ -4,7 +4,7 @@
 }
 
 li {
-  font-family: "Rubik Glitch", cursive;
+  font-family: 'Rubik Glitch', cursive;
   font-size: 2.5rem;
   list-style-type: none;
   color: rgb(255, 255, 255);
@@ -82,12 +82,12 @@ footer {
 footer h3 {
   color: white;
   font-size: 2rem;
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Saira Stencil One', cursive;
 }
 footer p {
   color: white;
   font-size: 2rem;
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Saira Stencil One', cursive;
 }
 
 .flexRedes {
@@ -108,7 +108,7 @@ footer p {
 h1 {
   text-align: center;
   color: rgb(255, 255, 255);
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Saira Stencil One', cursive;
   font-size: 5rem;
   text-shadow: 1px 1px 1px red;
   padding: 2rem;
@@ -118,7 +118,7 @@ h1 {
 h2 {
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: "Saira Stencil One", cursive;
+  font-family: 'Saira Stencil One', cursive;
   font-size: 3rem;
   text-shadow: 1px 1px 1px red;
   padding: 1rem;

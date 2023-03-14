@@ -1,111 +1,102 @@
-
 .imgPrincipal {
-    margin: auto;
-    display: flex;
-    width: 50rem;  
-    margin-top: 2rem;  
+  margin: auto;
+  display: flex;
+  width: 50rem;
+  margin-top: 2rem;
 }
 
-@media screen and (max-width: 600px){
-    .imgPrincipal {
-        width: 20rem;
-    }
+@media screen and (max-width: 600px) {
+  .imgPrincipal {
+    width: 20rem;
+  }
 }
 
 .imgHome {
-    
-    width: 20rem;
-    border-radius: 1rem;
-    position: relative;  
+  width: 20rem;
+  border-radius: 1rem;
+  position: relative;
 }
 
 .imgHome2 {
-    width: 30rem;
-    position: relative;
+  width: 30rem;
+  position: relative;
 }
 
 .flex1 {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;  
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
 }
 
-@media screen and (max-width: 700px){
-    .flex1 {
-        flex-direction: column;
-        
-    }
+@media screen and (max-width: 700px) {
+  .flex1 {
+    flex-direction: column;
+  }
 }
 
 .flexFotos {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
 
-    img {
-        width: 18rem;
-    }
+  img {
+    width: 18rem;
+  }
 }
 
-@media screen and (max-width: 700px){
-    .flexFotos {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    .imgHome2{
-        width: 20rem;
-    }
+@media screen and (max-width: 700px) {
+  .flexFotos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .imgHome2 {
+    width: 20rem;
+  }
 }
 
 section {
-  
-  margin-bottom: 3rem;  
+  margin-bottom: 3rem;
 }
 
 .noa {
-    position: absolute;
-    opacity: 0.2;
-    width: 70rem;
-    height: 51rem;  
+  position: absolute;
+  opacity: 0.2;
+  width: 70rem;
+  height: 51rem;
 }
 
-@media screen and (max-width: 700px){
-    .noa{
-        display: none;
-    } 
+@media screen and (max-width: 700px) {
+  .noa {
+    display: none;
+  }
 }
 
 .flexNoa {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-#saludoCliente{
-    font-family: 'Saira Stencil One', cursive;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    
+#saludoCliente {
+  font-family: 'Saira Stencil One', cursive;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.modal-content{
-    background-color: rgb(255, 0, 0);
-    font-family: 'Saira Stencil One', cursive;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-
-
+.modal-content {
+  background-color: rgb(255, 0, 0);
+  font-family: 'Saira Stencil One', cursive;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 .btn {
-    background-color: black;
-    
+  background-color: black;
 }
 
-.btn:hover{
-    background-color: rgb(105, 105, 103);
-    
+.btn:hover {
+  background-color: rgb(105, 105, 103);
 }

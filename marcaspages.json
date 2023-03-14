@@ -1,40 +1,37 @@
 [
-    {
-        "id": 1,
-        "name": "icasa",
-        "img": "../img/logoMarcas/icasa.png"
-    },
-    {
-        "id": 2,
-        "name": "honda",
-        "img": "../img/logoMarcas/honda.png"
-        
-    },
-    {
-        "id": 3,
-        "name": "polaris",
-        "img": "../img/logoMarcas/polaris.png"
-    },
-    {
-        "id": 4,
-        "name": "canam",
-        "img": "../img/logoMarcas/canam.png"
-    },
-    {
-        "id": 5,
-        "name": "yamaha",
-        "img": "../img/logoMarcas/yamaha.png"
-    },
-    {
-        "id": 6,
-        "name": "kawasaki",
-        "img": "../img/logoMarcas/kawasaki.png"
-    },
-    {
-        "id": 7,
-        "name": "cfmoto",
-        "img": "../img/logoMarcas/cfmoto.png"
-    }
+  {
+    "id": 1,
+    "name": "icasa",
+    "img": "../img/logoMarcas/icasa.png"
+  },
+  {
+    "id": 2,
+    "name": "honda",
+    "img": "../img/logoMarcas/honda.png"
+  },
+  {
+    "id": 3,
+    "name": "polaris",
+    "img": "../img/logoMarcas/polaris.png"
+  },
+  {
+    "id": 4,
+    "name": "canam",
+    "img": "../img/logoMarcas/canam.png"
+  },
+  {
+    "id": 5,
+    "name": "yamaha",
+    "img": "../img/logoMarcas/yamaha.png"
+  },
+  {
+    "id": 6,
+    "name": "kawasaki",
+    "img": "../img/logoMarcas/kawasaki.png"
+  },
+  {
+    "id": 7,
+    "name": "cfmoto",
+    "img": "../img/logoMarcas/cfmoto.png"
+  }
 ]
-
-    
