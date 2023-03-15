@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "slint": "./node_modules/.bin/eslint services/*.js",
-    "slint:fix": "./node_modules/.bin/eslint --fix services/*.js && npx prettier --write ."
+    "slint:fix": "prettier --write . && ./node_modules/.bin/eslint --fix services/*.js"
   },
   "author": "",
   "license": "ISC",
