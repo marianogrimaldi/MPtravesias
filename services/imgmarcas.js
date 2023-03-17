@@ -20,7 +20,7 @@ const cargarMarcas = async () => {
 
   //Para qué esta segunda iteración, si a esto ya lo podés hacer en el bucle de arriba?
   for (let marca of marcasV) {
-    let marcaNueva = document.createElement("div ");
+    let marcaNueva = document.createElement("div");
     marcaNueva.innerHTML = `<img src="${marca.img} " alt=" ">`;
     marcas.appendChild(marcaNueva);
   }
