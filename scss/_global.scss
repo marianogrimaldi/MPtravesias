@@ -18,7 +18,7 @@ li:hover {
 }
 
 body {
-  background-image: linear-gradient(45deg, red, black, black, #ff00ff);
+  background-image: linear-gradient(45deg, red, black, black, #ff00ff, black);
 }
 
 h1 {
@@ -63,7 +63,10 @@ a {
 @media screen and (max-width: 600px) {
   .navMenu {
     flex-direction: column;
+    gap: 0.5rem;
+    
   }
+ 
 }
 
 .logoPrincipal {
@@ -78,6 +81,14 @@ a {
 header {
   background-image: linear-gradient(to right, black,  #ff00ff, red, orange, yellow,  rgb(8, 255, 8),);
 }
+
+@media screen and (max-width: 600px) {
+ header {
+  background-image: linear-gradient(-45deg, black,  #ff00ff, red, orange, yellow,  rgb(8, 255, 8),);
+}
+ 
+}
+
 
 #logoWpp {
   width: 3rem;
