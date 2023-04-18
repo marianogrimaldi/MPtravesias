@@ -337,7 +337,7 @@ footer p {
 }
 @media screen and (max-width: 600px) {
   .sectionMarian {
-    margin-top: 22rem;
+    margin-top: 30rem;
   }
 }
 #footerPort {
@@ -564,6 +564,7 @@ p {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(5, 1fr);
+  margin-top: 5rem;
   grid-template-rows: repeat(2, 1fr);
   justify-items: center;
 }
@@ -586,5 +587,12 @@ p {
     grid-template-rows: repeat(5, 1fr);
   }
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
 
 /*# sourceMappingURL=styles.css.map */
