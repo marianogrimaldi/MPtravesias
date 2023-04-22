@@ -593,6 +593,9 @@ p {
   flex-wrap: wrap;
   padding: 0 4px;
 }
+.principal{
+  background-color: chartreuse;
+}
 
 /* Create four equal columns that sits next to each other */
 

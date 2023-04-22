@@ -9,7 +9,8 @@
     "id": 2,
     "name": "honda",
     "img": "../img/logoMarcas/honda.png",
-    "url":"https://motos.honda.com.ar/modelos/trx420"
+    "url":"https://motos.honda.com.ar/modelos/trx420",
+    "principal":true
     
   },
   {
