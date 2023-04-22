@@ -23,7 +23,6 @@ flagsElement.addEventListener("click", (e) => {
 
 //CODIGO PARA QUE QUEDE GUARDADO EL IDIOMA EN LOCAL STORAGE
 
-
 let idiomaIngles = document.getElementById("in");
 let idiomaEspañol = document.getElementById("es");
 

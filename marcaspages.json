@@ -3,44 +3,43 @@
     "id": 1,
     "name": "icasa",
     "img": "../img/logoMarcas/icasa.png",
-    "url":"https://www.icasamotos.com.ar/"
+    "url": "https://www.icasamotos.com.ar/"
   },
   {
     "id": 2,
     "name": "honda",
     "img": "../img/logoMarcas/honda.png",
-    "url":"https://motos.honda.com.ar/modelos/trx420",
-    "principal":true
-    
+    "url": "https://motos.honda.com.ar/modelos/trx420",
+    "principal": true
   },
   {
     "id": 3,
     "name": "polaris",
     "img": "../img/logoMarcas/polaris.png",
-    "url":"https://www.polarislatinamerica.com/encuentra-un-distribuidor/lista/argentina/"
+    "url": "https://www.polarislatinamerica.com/encuentra-un-distribuidor/lista/argentina/"
   },
   {
     "id": 4,
     "name": "canam",
     "img": "../img/logoMarcas/canam.png",
-    "url":"https://canam.com.ar/"
+    "url": "https://canam.com.ar/"
   },
   {
     "id": 5,
     "name": "yamaha",
     "img": "../img/logoMarcas/yamaha.png",
-    "url":"https://www.yamaha-motor.com.ar/#"
+    "url": "https://www.yamaha-motor.com.ar/#"
   },
   {
     "id": 6,
     "name": "kawasaki",
     "img": "../img/logoMarcas/kawasaki.png",
-    "url":"http://www.kawasakinavarro.com.ar/?gclid=CjwKCAjw__ihBhADEiwAXEazJobsvbLQ5o2gwgQuW1shyLvqZ0r0iyFdWgBDx_Be2z3As1hdeUl57xoCHtEQAvD_BwE"
+    "url": "http://www.kawasakinavarro.com.ar/?gclid=CjwKCAjw__ihBhADEiwAXEazJobsvbLQ5o2gwgQuW1shyLvqZ0r0iyFdWgBDx_Be2z3As1hdeUl57xoCHtEQAvD_BwE"
   },
   {
     "id": 7,
     "name": "cfmoto",
     "img": "../img/logoMarcas/cfmoto.png",
-    "url":"https://cfmotoargentina.com.ar/?&utm_campaign=AO&utm_source=googleads&utm_content=video&utm_medium=cpc&utm_term=Marca&gclid=CjwKCAjw__ihBhADEiwAXEazJsNb4vWPOVqupxPDONAQ0Pm4EpQPrbmhn_F98E3jhRKXjnWzx9tu6BoClJYQAvD_BwE"
+    "url": "https://cfmotoargentina.com.ar/?&utm_campaign=AO&utm_source=googleads&utm_content=video&utm_medium=cpc&utm_term=Marca&gclid=CjwKCAjw__ihBhADEiwAXEazJsNb4vWPOVqupxPDONAQ0Pm4EpQPrbmhn_F98E3jhRKXjnWzx9tu6BoClJYQAvD_BwE"
   }
 ]
