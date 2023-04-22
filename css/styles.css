@@ -304,12 +304,13 @@ footer p {
 #flags p {
   font-family: "Gobold CUTS", sans-serif;
   font-size: 2rem;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: animacionTexto;
+  margin-bottom: 4rem;
 }
 @media screen and (max-width: 600px) {
   #flags p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 @keyframes animacionTexto {
