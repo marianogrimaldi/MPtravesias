@@ -22,7 +22,8 @@
     "id": 4,
     "name": "canam",
     "img": "../img/logoMarcas/canam.png",
-    "url":"https://canam.com.ar/"
+    "url":"https://canam.com.ar/",
+    "principal": true
   },
   {
     "id": 5,

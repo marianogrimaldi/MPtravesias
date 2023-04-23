@@ -95,6 +95,7 @@ header {
   position: fixed;
   right: 0%;
   transition: 0.5s;
+  
 }
 
 @media screen and (max-width: 700px) {
@@ -203,13 +204,20 @@ footer {
   justify-content: space-evenly;
   position: relative;
 
-  img {
-    width: 6rem;
+  img{
+    width: 8rem;
+    filter: drop-shadow(2px 2px 2px rgb(126, 126, 126));
   }
-
+  .principal{
+    width: 15rem;
+    
+  }
   @media screen and (max-width: 600px) {
     img {
-      width: 3rem;
+      width: 2rem;
+    }
+    .principal {
+      width: 5rem;
     }
   }
 }

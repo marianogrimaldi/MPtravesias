@@ -187,18 +187,11 @@ footer p {
   position: relative;
 }
 .logosMarcas img {
-  width: 8rem;
-  filter: drop-shadow(2px 2px 2px rgb(126, 126, 126));
-}
-.logosMarcas .principal {
-  width: 15rem;
+  width: 6rem;
 }
 @media screen and (max-width: 600px) {
   .logosMarcas img {
-    width: 2rem;
-  }
-  .logosMarcas .principal {
-    width: 5rem;
+    width: 3rem;
   }
 }
 
@@ -278,6 +271,10 @@ footer p {
     margin-top: 2rem;
   }
 }
+.principal {
+  width: 20rem;
+}
+
 .logoCuatriSaludo {
   display: flex;
   justify-content: center;
@@ -470,7 +467,7 @@ p {
 .imgNosotros {
   position: absolute;
   opacity: 0.5;
-  width: 79rem;
+  width: 80rem;
 }
 
 .imgNosotrosCel {
@@ -564,6 +561,7 @@ p {
 }
 .imgGallery img {
   width: 18rem;
+  position: relative;
   cursor: pointer;
 }
 
@@ -577,6 +575,7 @@ p {
 }
 .imgGalleryVertical img {
   width: 10rem;
+  position: relative;
   cursor: pointer;
 }
 
