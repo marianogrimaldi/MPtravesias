@@ -369,7 +369,7 @@ footer p {
   }
 }
 .imgHome {
-  width: 20rem;
+  width: 13rem;
   position: relative;
 }
 
@@ -381,7 +381,7 @@ footer p {
 .flex1 {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem;
   align-items: center;
 }
 
@@ -530,6 +530,11 @@ p {
 }
 .flexMap img {
   width: 25rem;
+  transition: 0.5s;
+}
+.flexMap img:hover {
+  width: 26rem;
+  filter: drop-shadow(15rem 50px 100px rgb(255, 255, 255));
 }
 
 @media screen and (max-width: 700px) {

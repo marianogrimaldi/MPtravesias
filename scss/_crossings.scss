@@ -41,7 +41,15 @@
 
   img {
     width: 25rem;
+    transition: 0.5s;
   }
+  img:hover{
+    
+    width: 26rem;
+    filter: drop-shadow(15rem 50px 100px rgb(255, 255, 255));
+    
+  }
+  
 }
 @media screen and (max-width: 700px) {
   .flexMap {
@@ -52,3 +60,4 @@
 .underline {
   text-decoration: underline;
 }
+
