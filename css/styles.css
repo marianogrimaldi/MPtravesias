@@ -357,7 +357,6 @@ footer p {
 }
 
 .imgPrincipal {
-  display: flex;
   width: 50rem;
   margin-top: 2rem;
 }
@@ -365,6 +364,7 @@ footer p {
 @media screen and (max-width: 600px) {
   .imgPrincipal {
     width: 20rem;
+    margin-left: 5.5rem;
   }
 }
 .flexImgDesafios {
@@ -384,6 +384,11 @@ footer p {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+  .desafiosP {
+    display: none;
+  }
+}
 .cuatriSaludo {
   width: 12rem;
   margin-left: 7rem;
