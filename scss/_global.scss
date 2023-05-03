@@ -60,17 +60,13 @@ a {
 }
 
 
-@media screen and (max-width: 1024px) {
-  .navMenu {
-    li{
-      font-size: 1.5rem;
-    }
-  }
-}
+
 @media screen and (max-width: 768px) {
   .navMenu {
+    flex-direction: column;
+    gap:1rem;
     li{
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
   }
 }
@@ -85,7 +81,7 @@ a {
 
 @media screen and (max-width: 768px) {
   .logoPrincipal {
-    width: 12rem;
+    width: 18rem;
   }
 }
 
