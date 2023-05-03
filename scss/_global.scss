@@ -80,7 +80,7 @@ a {
     flex-direction: column;
     gap:1rem;
     li{
-      font-size: 1rem;
+      font-size: 2rem;
     }
   }
 }
@@ -125,7 +125,7 @@ header {
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #logoWpp {
     display: none;
   }
@@ -256,10 +256,7 @@ footer {
     }
   }
 
-
  } 
-
-
 
 .lang {
   position: absolute;

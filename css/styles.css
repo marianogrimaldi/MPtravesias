@@ -76,7 +76,7 @@ a {
     gap: 1rem;
   }
   .navMenu li {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 .logoPrincipal {
@@ -110,7 +110,7 @@ header {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #logoWpp {
     display: none;
   }
@@ -439,9 +439,9 @@ footer p {
   width: 18rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .flexFotos img {
-    width: 10rem;
+    width: 12rem;
   }
 }
 @media screen and (max-width: 768px) {
