@@ -64,6 +64,13 @@ a {
     gap: 1rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .navFlex {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
 .navMenu {
   display: flex;
   gap: 1.5rem;
@@ -82,10 +89,12 @@ a {
 @media screen and (max-width: 768px) {
   .navMenu {
     flex-direction: column;
+    align-items: end;
     gap: 1rem;
+    margin-top: 1rem;
   }
   .navMenu li {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 .logoPrincipal {
@@ -96,7 +105,7 @@ a {
 
 @media screen and (max-width: 768px) {
   .logoPrincipal {
-    width: 18rem;
+    width: 20rem;
   }
 }
 .logoFooter {
