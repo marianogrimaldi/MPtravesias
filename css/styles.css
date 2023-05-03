@@ -68,7 +68,6 @@ a {
   .navFlex {
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
   }
 }
 .navMenu {
@@ -89,12 +88,11 @@ a {
 @media screen and (max-width: 768px) {
   .navMenu {
     flex-direction: column;
-    align-items: end;
     gap: 1rem;
     margin-top: 1rem;
   }
   .navMenu li {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 .logoPrincipal {
