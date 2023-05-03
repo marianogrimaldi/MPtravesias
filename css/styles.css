@@ -57,10 +57,23 @@ a {
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .navMenu li {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navMenu li {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .navMenu {
     flex-direction: column;
     gap: 0.5rem;
+  }
+  .navMenu li {
+    font-size: 1.5rem;
   }
 }
 .logoPrincipal {
@@ -69,6 +82,16 @@ a {
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
+@media screen and (max-width: 768px) {
+  .logoPrincipal {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .logoPrincipal {
+    width: 15rem;
+  }
+}
 .logoFooter {
   width: 20rem;
 }
@@ -89,7 +112,7 @@ header {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #logoWpp {
     display: none;
   }
@@ -193,6 +216,14 @@ footer p {
 .logosMarcas .principal {
   width: 15rem;
 }
+@media screen and (max-width: 1024px) {
+  .logosMarcas img {
+    width: 4rem;
+  }
+  .logosMarcas .principal {
+    width: 10rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .logosMarcas img {
     width: 2rem;
@@ -255,14 +286,6 @@ footer p {
   animation-name: animacionSello;
 }
 
-@keyframes animacionSello {
-  0% {
-    color: black;
-  }
-  100% {
-    color: white;
-  }
-}
 #flexLogoMarian {
   display: flex;
   align-items: center;
@@ -361,6 +384,11 @@ footer p {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .imgPrincipal {
+    width: 40rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .imgPrincipal {
     width: 20rem;
@@ -388,6 +416,16 @@ footer p {
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .flex1 img {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex1 img {
+    width: 10rem;
+  }
+}
 @media screen and (max-width: 700px) {
   .flex1 {
     flex-direction: column;
@@ -403,6 +441,16 @@ footer p {
   width: 18rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .flexFotos img {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flexFotos img {
+    width: 10rem;
+  }
+}
 @media screen and (max-width: 700px) {
   .flexFotos {
     flex-direction: column;
@@ -424,7 +472,7 @@ section {
   height: 51rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
   .noa {
     display: none;
   }
