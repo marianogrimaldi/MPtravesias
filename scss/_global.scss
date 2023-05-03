@@ -54,7 +54,7 @@ a {
   color: inherit;
 }
 
-.navFlex{
+.barraNueva{
 
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ a {
   gap: 4rem;
 }
 @media screen and (max-width: 992px) {
-  .navFlex{
+  .barraNueva{
     flex-direction: column;
     justify-content: center;
     gap:1rem
