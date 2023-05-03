@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   #articleCross {
     text-align: center;
   }
@@ -50,6 +50,13 @@
     
   }
   
+}
+@media screen and (max-width: 992px) {
+  .flexMap {
+    img{
+      width: 22rem;
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .flexMap {
