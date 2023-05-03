@@ -423,9 +423,9 @@ footer p {
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   .flex1 img {
-    width: 15rem;
+    width: 14rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -613,6 +613,11 @@ p {
   width: 70rem;
 }
 
+@media screen and (max-width: 992px) {
+  .tour img {
+    width: 40rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .tour img {
     width: 25rem;
@@ -643,6 +648,19 @@ p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  .imgGallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .imgGallery img {
+    width: 20rem;
+  }
+  .imgGalleryVertical {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
 @media screen and (max-width: 768px) {
   .imgGallery {
     grid-template-columns: repeat(1, 1fr);
